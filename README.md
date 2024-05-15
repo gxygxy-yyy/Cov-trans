@@ -14,7 +14,7 @@ Experimental results show that Cov-trans outperforms others in both accuracy and
 accurately identifying the boundaries of canonical transcripts. 
 
 # Pre-requistites for Cov-trans to run
-Python 3.7
+Python 3.7			
 Gurobi 9.5.1
 pysam
 numpy

@@ -12,3 +12,15 @@ mixed integer linear programming to recover these non-canonical transcripts. We 
 transcripts assembler Jumper, as well as two state-of-the-art eukaryotic transcriptome assemblers, Stringtie and Scallop.
 Experimental results show that Cov-trans outperforms others in both accuracy and recall, with a notable strength in
 accurately identifying the boundaries of canonical transcripts. 
+
+# Pre-requistites for Cov-trans to run
+Python 3.7
+Gurobi 9.5.1
+pysam
+numpy
+pandas
+
+#Usage
+
+
+

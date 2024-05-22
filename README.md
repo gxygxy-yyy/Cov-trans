@@ -14,13 +14,39 @@ Experimental results show that Cov-trans outperforms others in both accuracy and
 accurately identifying the boundaries of canonical transcripts. 
 
 # Pre-requistites for Cov-trans to run
-Python 3.7			
+Python 3.7	
+
 Gurobi 9.5.1
+
 pysam
+
 numpy
+
 pandas
 
-#Usage
+# Usage
+--bam(or -b) BAM  
+--fasta(or -f)
+                      [--min-base-qual MIN_BASE_QUAL]
+                      [--min-mapping-qual MIN_MAPPING_QUAL] [-w WIDTH]
+                      [--samplingFrequency SAMPLINGFREQUENCY]
+                      [--sj_threshold SJ_THRESHOLD] [-n NEDGES]
+                      [--phasing_threshold PHASING_THRESHOLD]
+                      [--greedy GREEDY] [--outputCSV OUTPUTCSV]
+                      [--outputPhasing OUTPUTPHASING] [--inputCSV INPUTCSV]
+                      [--inputPhasing INPUTPHASING]
+                      [--inputBreakpoints INPUTBREAKPOINTS]
+                      [--inputEdges INPUTEDGES] [--outputGraph OUTPUTGRAPH]
+                      [--outputDOT OUTPUTDOT]
+                      [--outputTranscripts OUTPUTTRANSCRIPTS]
+                      [--outputBreakpoints OUTPUTBREAKPOINTS]
+                      [--outputEdges OUTPUTEDGES]
+                      [--outputDecomposition OUTPUTDECOMPOSITION]
+                      [--outputMatching OUTPUTMATCHING]
+                      [--outputGTF OUTPUTGTF] [--report REPORT] [--noverbose]
+                      [--threads THREADS] [--timelimit TIMELIMIT]
+                      [--maxIter MAXITER]
+
 
 
 

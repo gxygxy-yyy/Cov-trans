@@ -18,6 +18,8 @@ Python 3.7
 
 Gurobi 9.5.1
 
+samtools
+
 pysam
 
 numpy
@@ -29,13 +31,19 @@ pandas
 
 --fasta(or -f) .fasta
 
---outputTranscripts OUTPUTTRANSCRIPTS
+--Graph OUTPUTTRANSCRIPTS
                      
---outputGTF OUTPUTGTF
+--calTransGTF .gtf
 
- --report REPORT] 
- 
- --threads THREADS
+--noncalTransGTF .gtf
+
+--threads THREADS 
+
+# Example
+
+
+# Feedback and bug reports
+Your comments, bug reports, and suggestions are very welcomed. They will help us to further improve Cov-trans. If you have any troubles running Cov-trans, please contact us (Email:2021020692@qdu.edu.cn).
 
 
 
